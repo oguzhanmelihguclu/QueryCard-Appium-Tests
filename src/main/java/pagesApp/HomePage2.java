@@ -10,9 +10,9 @@ import java.util.List;
 import static drivers.Driver.getAppiumDriver;
 
 
-public class US01_02_03Page {
+public class HomePage2 {
 
-    public US01_02_03Page() {
+    public HomePage2() {
         PageFactory.initElements(new AppiumFieldDecorator(getAppiumDriver()), this);
 
     }
