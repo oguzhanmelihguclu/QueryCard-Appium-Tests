@@ -13,7 +13,7 @@ import static drivers.Driver.getAppiumDriver;
 import static drivers.Driver.quitAppiumDriver;
 
 
-public class US01_02_03Stepdefinition extends OptionsMethods {
+public class HomePage2_Stepdefinition extends OptionsMethods {
 
     Actions actions = new Actions(getAppiumDriver());
     HomePage2 us01_02_03Page = new HomePage2();

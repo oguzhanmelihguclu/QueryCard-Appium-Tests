@@ -1,4 +1,4 @@
-Feature: As a user, I want to be able to see the popular brands of the site on the homepage
+Feature:[US-005] As a user, I want to be able to see the popular brands of the site on the homepage
 
   Scenario: "Most Popular" Heading Should Be Visible on the Homepage
     Given  User makes driver adjustments

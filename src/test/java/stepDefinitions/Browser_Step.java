@@ -6,10 +6,9 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import pagesBrowser.BrowserPage;
-import utilities.ReusableMethods;
 
 
-public class US_004_Browser_Step {
+public class Browser_Step {
 
     BrowserPage browserPage = new BrowserPage();
 

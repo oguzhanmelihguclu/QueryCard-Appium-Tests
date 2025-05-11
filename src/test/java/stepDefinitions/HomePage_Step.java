@@ -12,7 +12,7 @@ import javax.sound.midi.InvalidMidiDataException;
 import static drivers.Driver.getAppiumDriver;
 
 
-public class US_004_005_0012_Step {
+public class HomePage_Step {
 
    HomePage homePage =new pagesApp.HomePage();
 

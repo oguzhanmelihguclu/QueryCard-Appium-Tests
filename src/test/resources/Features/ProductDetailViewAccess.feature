@@ -1,4 +1,4 @@
-Feature:  As a user, I want to be able to access detailed information about the product I have selected on the page
+Feature: [US-006] As a user, I want to be able to access detailed information about the product I have selected on the page
 
   Scenario: Navigation to the Relevant Product Page
     Given  User makes driver adjustments
