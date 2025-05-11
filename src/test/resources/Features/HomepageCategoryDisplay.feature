@@ -1,5 +1,5 @@
 
-Feature: As a user, I want to be able to see the categories under the categories
+Feature: [US-004] As a user, I want to be able to see the categories under the categories
   heading on the homepage and select the product from the category I want.
 
 @test
