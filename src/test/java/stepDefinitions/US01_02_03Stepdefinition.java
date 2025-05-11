@@ -5,7 +5,7 @@ import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.interactions.Actions;
 
-import pagesApp.US01_02_03Page;
+import pagesApp.HomePage2;
 import utilities.OptionsMethods;
 import utilities.ReusableMethods;
 
@@ -16,7 +16,7 @@ import static drivers.Driver.quitAppiumDriver;
 public class US01_02_03Stepdefinition extends OptionsMethods {
 
     Actions actions = new Actions(getAppiumDriver());
-    US01_02_03Page us01_02_03Page = new US01_02_03Page();
+    HomePage2 us01_02_03Page = new HomePage2();
 
 
     @Given("Driver turns off")
