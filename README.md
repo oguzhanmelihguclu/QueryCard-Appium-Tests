@@ -1,78 +1,55 @@
-# 📱 QueryCart Mobil Test Otomasyon Projesi
+📱 QueryCart Mobil Test Otomasyon Projesi
+Bu proje, QueryCart internet sitesine ait mobil uygulamanın Pixel 8 Pro cihazı üzerinde Android 14.0 sürümü ile test edilmesi amacıyla hazırlanmıştır. Testler, Cucumber tabanlı yapı ile Appium framework'ü kullanılarak gerçekleştirilmiş olup, sonuçlar Allure Reports ile raporlanmıştır.
 
-Bu proje, [https://querycart.com/](https://querycart.com/) internet sitesine ait **mobil uygulamanın** Pixel 8 Pro cihazı üzerinde **Android 14.0** sürümü ile test edilmesi amacıyla hazırlanmıştır. Testler, **Cucumber** tabanlı yapı ile **Appium** framework'ü kullanılarak gerçekleştirilmiş olup, sonuçlar **Allure Reports** ile raporlanmıştır.
+🚀 Kullanılan Teknolojiler ve Araçlar
+Araç / Teknoloji	Açıklama
+Java (OpenJDK 23)	Test senaryolarının yazım dili
+Cucumber	BDD (Behavior Driven Development) yaklaşımı
+Appium	Mobil uygulama otomasyonu aracı
+Selenium WebDriver	UI etkileşimleri (mobil tarayıcıda)
+TestNG	Test yönetimi
+Allure	Raporlama aracı
+Maven	Bağımlılık yönetimi ve proje yapılandırması
+Android Emulator	Pixel 8 Pro / Android 14.0
 
----
+📱 Test Edilen Platform
+Site: QueryCart
 
-## 🚀 Teknolojiler ve Araçlar
+Cihaz: Pixel 8 Pro
 
-| Araç / Teknoloji       | Açıklama                              |
-|------------------------|----------------------------------------|
-| Java (OpenJDK 23)      | Test senaryolarının yazım dili         |
-| Cucumber               | BDD (Behavior Driven Development) yaklaşımı |
-| Appium                 | Mobil uygulama otomasyon aracı         |
-| Selenium WebDriver     | UI etkileşimleri (mobil tarayıcıda)    |
-| TestNG                 | Test yönetimi                          |
-| Allure                 | Raporlama aracı                        |
-| Maven                  | Bağımlılık yönetimi ve proje yapılandırması |
-| Android Emulator       | Pixel 8 Pro / Android 14.0             |
+Android Sürümü: 14.0
 
----
+Tarayıcı (Mobil Web Testi): Chrome / WebView
 
-## 📱 Test Edilen Platform
+Test Tipi: Mobil Web Otomasyon Testi
 
-- **Site:** [https://querycart.com/](https://querycart.com/)
-- **Cihaz:** Pixel 8 Pro
-- **Android Sürümü:** 14.0
-- **Tarayıcı (mobil web testi):** Chrome / WebView
-- **Test Tipi:** Mobil Web Otomasyon Testi
+📁 QueryCartMobilTest Proje Yapısı
+Projenin dosya yapısı şu şekildedir:
 
----
-
-# QueryCartMobileTest Proje Yapısı
-
-
-```
+arduino
+Copy
+Edit
 QueryCartMobileTest/
 ├── src/
 │   ├── main/
 │   │   └── java/
-│   │       ├── config/
-│   │       │   → Yapılandırma dosyaları
-│   │       ├── drivers/
-│   │       │   → WebDriver yöneticileri
-│   │       ├── pagesApp/
-│   │       │   → Mobil uygulama sayfa nesneleri
-│   │       ├── pagesBrowser/
-│   │       │   → Tarayıcı tabanlı test sayfaları
-│   │       └── utilities/
-│   │           → Driver, ConfigReader vb. yardımcı sınıflar
+│   │       ├── config/          → Yapılandırma dosyaları
+│   │       ├── drivers/         → WebDriver yöneticileri
+│   │       ├── pagesApp/        → Mobil uygulama sayfa nesneleri
+│   │       ├── pagesBrowser/    → Tarayıcı tabanlı test sayfaları
+│   │       └── utilities/       → Yardımcı sınıflar (Driver, ConfigReader vb.)
 │   ├── test/
 │   │   └── java/
-│   │       ├── stepdefinitions/
-│   │       │   → Cucumber adım tanımları
-│   │       └── runners/
-│   │           → TestNG ve Cucumber runner'ları
+│   │       ├── stepdefinitions/ → Cucumber adım tanımları
+│   │       └── runners/         → TestNG ve Cucumber runner'ları
 ├── resources/
-│   ├── features/
-│   │   → .feature dosyaları (senaryolar)
-│   └── config.properties
-│       → Test yapılandırmaları
-├── pom.xml
-│   → Maven bağımlılık dosyası
-├── testng.xml
-│   → Alternatif test konfigürasyonu
-├── logs/
-│   → Test günlük kayıtları (.log dosyaları)
-├── README.md
-│   → Proje açıklamaları ve kullanım rehberi
-└── driversBrowser/
-    → Tarayıcı sürücüleri (örneğin: chromedriver.exe)
-```
-
-
-
-
+│   ├── features/              → .feature dosyaları (senaryolar)
+│   └── config.properties      → Test yapılandırma dosyaları
+├── pom.xml                    → Maven bağımlılık dosyası
+├── testng.xml                 → Alternatif test konfigürasyonu
+├── logs/                      → Test günlükleri (.log dosyaları)
+├── README.md                  → Proje açıklamaları ve kullanım rehberi
+└── driversBrowser/            → Tarayıcı sürücüleri (örneğin: chromedriver.exe)
 🧭 Uygulanan Test Kapsamı (Backlog)
 Testler aşağıdaki kullanıcı hikayelerini kapsamaktadır (örnekler):
 
@@ -86,12 +63,13 @@ Testler aşağıdaki kullanıcı hikayelerini kapsamaktadır (örnekler):
 
 ✅ US_027 - Sepet işlemleri yönetimi
 
-… ve 25'ten fazla kullanıcı hikayesi
+... ve 25'ten fazla kullanıcı hikayesi.
 
 Detaylı backlog bilgisi için docs/backlog.md veya features/ klasörü incelenebilir.
 
 📬 İletişim
-Test sahibi / QA Engineer: Oğuzhan Melih Güçlü
+Test Sahibi / QA Engineer: Oğuzhan Melih Güçlü
 
-Mail: oguzhanmguclu@gmail.com  
-LinkedIn: https://www.linkedin.com/in/oguzhanmelihguclu/
+Mail: oguzhanmguclu@gmail.com
+
+LinkedIn: Oğuzhan Melih Güçlü
