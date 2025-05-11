@@ -1,37 +1,39 @@
-# 📱 **QueryCart Mobil Test Otomasyon Projesi**
+# 📱 **QueryCart Mobile Test Automation Project**
 
-Bu proje, [QueryCart](https://querycart.com/) internet sitesine ait **mobil uygulamanın** Pixel 8 Pro cihazı üzerinde **Android 14.0** sürümü ile test edilmesi amacıyla hazırlanmıştır. Testler, **Cucumber** tabanlı yapı ile **Appium** framework'ü kullanılarak gerçekleştirilmiş olup, sonuçlar **Allure Reports** ile raporlanmıştır.
-
----
-
-## 🚀 **Kullanılan Teknolojiler ve Araçlar**
-
-| **Araç / Teknoloji**     | **Açıklama**                                            |
-|--------------------------|----------------------------------------------------------|
-| **Java (OpenJDK 23)**     | Test senaryolarının yazım dili                          |
-| **Cucumber**              | BDD (Behavior Driven Development) yaklaşımı             |
-| **Appium**                | Mobil uygulama otomasyonu aracı                         |
-| **Selenium WebDriver**    | UI etkileşimleri (mobil tarayıcıda)                      |
-| **TestNG**                | Test yönetimi                                            |
-| **Allure**                | Raporlama aracı                                          |
-| **Maven**                 | Bağımlılık yönetimi ve proje yapılandırması             |
-| **Android Emulator**      | Pixel 8 Pro / Android 14.0                               |
+This project is designed to test the **mobile application** of the [QueryCart](https://querycart.com/) website on a **Pixel 8 Pro** device running **Android 14.0**. The tests are performed using the **Cucumber** framework with **Appium** automation tool, and the results are reported through **Allure Reports**.
 
 ---
 
-## 📱 **Test Edilen Platform**
+## 🚀 **Technologies and Tools Used**
+
+| **Tool / Technology**    | **Description**                                           |
+|--------------------------|-----------------------------------------------------------|
+| **Java (OpenJDK 23)**     | The programming language for writing test scenarios       |
+| **Cucumber**              | BDD (Behavior Driven Development) approach                |
+| **Appium**                | Mobile application automation tool                        |
+| **Selenium WebDriver**    | UI interactions (mobile browser)                          |
+| **TestNG**                | Test management                                            |
+| **Allure**                | Reporting tool                                            |
+| **Maven**                 | Dependency management and project configuration           |
+| **Android Emulator**      | Pixel 8 Pro / Android 14.0                                |
+
+---
+
+## 📱 **Tested Platform**
 
 - **Site:** [QueryCart](https://querycart.com/)
-- **Cihaz:** Pixel 8 Pro
-- **Android Sürümü:** 14.0
-- **Tarayıcı (Mobil Web Testi):** Chrome / WebView
-- **Test Tipi:** Mobil Web Otomasyon Testi
+- **Device:** Pixel 8 Pro
+- **Android Version:** 14.0
+- **Browser (Mobile Web Test):** Chrome / WebView
+- **Test Type:** Mobile Web Automation Test
 
 ---
 
-## 📁 **QueryCartMobilTest Proje Yapısı**
+## 📁 **QueryCartMobileTest Project Structure**
 
-Projenin dosya yapısı şu şekildedir:
+The project structure is as follows:
+
+
 
 ```
 QueryCartMobileTest/
@@ -59,25 +61,29 @@ QueryCartMobileTest/
 ```
 
 
-## 🧭 **Uygulanan Test Kapsamı (Backlog)**
-
-Testler aşağıdaki kullanıcı hikayelerini kapsamaktadır (örnekler):
-
-- ✅ **US_001** - Kullanıcının ana sayfaya erişebilmesi
-- ✅ **US_007** - Kullanıcının kayıt olabilmesi
-- ✅ **US_008** - Kullanıcının giriş yapabilmesi
-- ✅ **US_012** - Ürün detaylarının görülebilmesi
-- ✅ **US_027** - Sepet işlemleri yönetimi
-
-... ve 25'ten fazla kullanıcı hikayesi.
-
-Detaylı backlog bilgisi için **`docs/backlog.md`** veya **`features/`** klasörü incelenebilir.
 
 ---
 
-## 📬 **İletişim**
+## 🧭 **Test Coverage (Backlog)**
 
-- **Test Sahibi / QA Engineer:** Oğuzhan Melih Güçlü
+The tests cover the following user stories (examples):
+
+- ✅ **US_001** - User can access the homepage
+- ✅ **US_007** - User can register
+- ✅ **US_008** - User can log in
+- ✅ **US_012** - User can view product details
+- ✅ **US_027** - Cart management
+
+... and more than 25 user stories.
+
+For detailed backlog information, check the **`docs/backlog.md`** or **`features/`** folder.
+
+---
+
+## 📬 **Contact**
+
+- **Test Owner / QA Engineer:** Oğuzhan Melih Güçlü
 - **Mail:** [oguzhanmguclu@gmail.com](mailto:oguzhanmguclu@gmail.com)
 - **LinkedIn:** [Oğuzhan Melih Güçlü](https://www.linkedin.com/in/oguzhanmelihguclu/)
+
 
