@@ -39,36 +39,23 @@ QueryCartMobileTest/
 │   ├── main/
 │   │   └── java/
 │   │       ├── config/
-│   │       │   → Yapılandırma dosyaları
 │   │       ├── drivers/
-│   │       │   → WebDriver yöneticileri
 │   │       ├── pagesApp/
-│   │       │   → Mobil uygulama sayfa nesneleri
 │   │       ├── pagesBrowser/
-│   │       │   → Tarayıcı tabanlı test sayfaları
 │   │       └── utilities/
-│   │           → Driver, ConfigReader vb. yardımcı sınıflar
 │   ├── test/
 │   │   └── java/
 │   │       ├── stepdefinitions/
-│   │       │   → Cucumber adım tanımları
 │   │       └── runners/
-│   │           → TestNG ve Cucumber runner'ları
 ├── resources/
 │   ├── features/
-│   │   → .feature dosyaları (senaryolar)
 │   └── config.properties
-│       → Test yapılandırmaları
 ├── pom.xml
-│   → Maven bağımlılık dosyası
 ├── testng.xml
-│   → Alternatif test konfigürasyonu
 ├── logs/
-│   → Test günlük kayıtları (.log dosyaları)
 ├── README.md
-│   → Proje açıklamaları ve kullanım rehberi
 └── driversBrowser/
-    → Tarayıcı sürücüleri (örneğin: chromedriver.exe)
+
 ```
 
 
