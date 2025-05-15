@@ -1,6 +1,6 @@
 # 📱 **QueryCart Mobile Test Automation Project**
 
-This project is designed to test the **mobile application** of the [QueryCart](https://querycart.com/) website on a **Pixel 8 Pro** device running **Android 14.0**. The tests are performed using the **Cucumber** framework with **Appium** automation tool, and the results are reported through **Allure Reports**.
+This project is designed to test the **mobile application** of the [QueryCart](https://querycart.com/) website on a **Pixel 8 Pro** device running **Android 14.0**. The tests are performed using the **Cucumber** framework with **Appium** automation tool, and the results are reported through **Allure Reports**..
 
 ---
 
