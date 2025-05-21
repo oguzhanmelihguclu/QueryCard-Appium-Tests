@@ -84,7 +84,7 @@ For detailed backlog information, check the **`docs/backlog.md`** or **`features
 
 - 📊 Test Report
 
-- 
+  
 Below is the Allure Report screenshot generated for the QueryCart Mobile Test Automation Project:
 
 
@@ -99,4 +99,4 @@ This version should fit perfectly into your README file. Let me know if you need
 - **Test Owner / QA Engineer:** Oğuzhan Melih Güçlü
 - **Mail:** [oguzhanmguclu@gmail.com](mailto:oguzhanmguclu@gmail.com)
 - **LinkedIn:** [Oğuzhan Melih Güçlü](https://www.linkedin.com/in/oguzhanmelihguclu/)
-- 
+  
