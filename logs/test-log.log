@@ -28,3 +28,72 @@
 2025-05-10 17:32:43 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
 2025-05-10 17:39:38 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
 2025-05-10 17:40:19 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-05-21 17:00:31 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 17:00:32 [main] INFO  utilities.LoggerHelper - The Address is visible and clickable in the sidebar
+2025-05-21 17:01:42 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 17:01:46 [main] INFO  utilities.LoggerHelper - User clicks the button with description Address
+2025-05-21 17:01:47 [main] INFO  utilities.LoggerHelper - The Add New Address is visible and clickable
+2025-05-21 17:05:28 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 17:05:30 [main] INFO  utilities.LoggerHelper - The Address is visible and clickable in the sidebar
+2025-05-21 17:07:17 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-05-21 17:07:55 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 17:07:56 [main] INFO  utilities.LoggerHelper - The Address is visible and clickable in the sidebar
+2025-05-21 17:13:02 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 17:13:05 [main] INFO  utilities.LoggerHelper - User clicks the button with description Sign In
+2025-05-21 17:13:08 [main] INFO  utilities.LoggerHelper - User clicks the button with description phoneTextBox
+2025-05-21 17:13:15 [main] INFO  utilities.LoggerHelper - User clicks the button with description signInLoginButton
+2025-05-21 17:13:16 [main] INFO  utilities.LoggerHelper - User clicks the men button
+2025-05-21 17:13:18 [main] INFO  utilities.LoggerHelper - User clicks the adidas  3 stripesbutton
+2025-05-21 17:13:20 [main] INFO  utilities.LoggerHelper - User clicks the black button
+2025-05-21 17:13:23 [main] INFO  utilities.LoggerHelper - User clicks the add to cart button
+2025-05-21 17:13:24 [main] INFO  utilities.LoggerHelper - User clicks the cart icon
+2025-05-21 17:13:25 [main] INFO  utilities.LoggerHelper - User clicks the proceed to checkout button
+2025-05-21 17:13:25 [main] INFO  utilities.LoggerHelper - User clicks the delivery button
+2025-05-21 17:13:25 [main] INFO  utilities.LoggerHelper - User clicks the pickup button
+2025-05-21 17:21:55 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 17:21:56 [main] INFO  utilities.LoggerHelper - The Address is visible and clickable in the sidebar
+2025-05-21 17:25:47 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 17:25:48 [main] INFO  utilities.LoggerHelper - The Address is visible and clickable in the sidebar
+2025-05-21 17:30:56 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 17:30:58 [main] INFO  utilities.LoggerHelper - The Address is visible and clickable in the sidebar
+2025-05-21 17:33:30 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 17:33:31 [main] INFO  utilities.LoggerHelper - The Address is visible and clickable in the sidebar
+2025-05-21 17:53:57 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 17:53:58 [main] INFO  utilities.LoggerHelper - The Address is visible and clickable in the sidebar
+2025-05-21 17:54:30 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 17:54:45 [main] INFO  utilities.LoggerHelper - The Sort Byunder the Men category is clickable
+2025-05-21 17:55:02 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 17:55:16 [main] INFO  utilities.LoggerHelper - The Brandsunder the Men category is clickable
+2025-05-21 17:55:34 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 17:55:48 [main] INFO  utilities.LoggerHelper - The sizeunder the Men category is clickable
+2025-05-21 17:56:05 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 17:56:19 [main] INFO  utilities.LoggerHelper - The colorunder the Men category is clickable
+2025-05-21 17:56:37 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 17:56:51 [main] INFO  utilities.LoggerHelper - The Sort Byunder the Women category is clickable
+2025-05-21 17:57:08 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 17:57:22 [main] INFO  utilities.LoggerHelper - The Brandsunder the Women category is clickable
+2025-05-21 17:57:39 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 17:57:54 [main] INFO  utilities.LoggerHelper - The sizeunder the Women category is clickable
+2025-05-21 17:58:11 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 17:58:25 [main] INFO  utilities.LoggerHelper - The colorunder the Women category is clickable
+2025-05-21 17:58:43 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 17:58:57 [main] INFO  utilities.LoggerHelper - The Sort Byunder the Juniors category is clickable
+2025-05-21 17:59:15 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 17:59:29 [main] INFO  utilities.LoggerHelper - The Brandsunder the Juniors category is clickable
+2025-05-21 17:59:47 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 18:00:01 [main] INFO  utilities.LoggerHelper - The sizeunder the Juniors category is clickable
+2025-05-21 18:00:19 [main] INFO  utilities.LoggerHelper - User clicks the button with description Category
+2025-05-21 18:00:33 [main] INFO  utilities.LoggerHelper - The colorunder the Juniors category is clickable
+2025-05-21 18:03:19 [main] INFO  runners.Runner - Cucumber Test Runner başlatılıyor...
+2025-05-21 18:03:35 [main] INFO  utilities.LoggerHelper - User clicks the button with description Profile
+2025-05-21 18:03:39 [main] INFO  utilities.LoggerHelper - User clicks the button with description Sign In
+2025-05-21 18:03:42 [main] INFO  utilities.LoggerHelper - User clicks the button with description phoneTextBox
+2025-05-21 18:03:48 [main] INFO  utilities.LoggerHelper - User clicks the button with description signInLoginButton
+2025-05-21 18:03:49 [main] INFO  utilities.LoggerHelper - User clicks the men button
+2025-05-21 18:03:51 [main] INFO  utilities.LoggerHelper - User clicks the adidas  3 stripesbutton
+2025-05-21 18:03:53 [main] INFO  utilities.LoggerHelper - User clicks the black button
+2025-05-21 18:03:56 [main] INFO  utilities.LoggerHelper - User clicks the add to cart button
+2025-05-21 18:03:58 [main] INFO  utilities.LoggerHelper - User clicks the cart icon
+2025-05-21 18:03:58 [main] INFO  utilities.LoggerHelper - User clicks the proceed to checkout button
+2025-05-21 18:04:01 [main] INFO  utilities.LoggerHelper - User clicks the save & pay button
+2025-05-21 18:04:01 [main] INFO  utilities.LoggerHelper - User sees the confirm order button

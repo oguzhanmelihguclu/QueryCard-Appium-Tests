@@ -17,10 +17,11 @@ import org.openqa.selenium.interactions.Pause;
 import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
 import org.openqa.selenium.remote.DesiredCapabilities;
-import pagesApp.LoginPage;
-
+import org.openqa.selenium.remote.RemoteWebDriver;
+import pages.LoginPage;
 
 import javax.imageio.ImageIO;
+import javax.sound.midi.InvalidMidiDataException;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
@@ -137,8 +138,8 @@ public class ReusableMethods {
 
     public static void screenShotElement(String text) throws IOException {
         WebElement element = Driver.getAppiumDriver().findElement(xpath("//*[@text='"+text+"']"));
-        org.openqa.selenium.Point location = element.getLocation();
-        org.openqa.selenium.Dimension size = element.getSize();
+        Point location = element.getLocation();
+        Dimension size = element.getSize();
 
         // Ekran görüntüsünü alın ve belirli bölgeyi kırpın
         File screenshot = Driver.getAppiumDriver().getScreenshotAs(OutputType.FILE);
@@ -169,11 +170,11 @@ public class ReusableMethods {
         loginPage.EmailInsteadButton.click();
         ReusableMethods.wait(1);
         loginPage.EmailButton.click();
-        ReusableMethods.wait(1);
+        ReusableMethods.wait(3);
         loginPage.EmailButton.sendKeys(ConfigReader.getProperty(email));
         ReusableMethods.wait(1);
         loginPage.PasswordButton.click();
-        ReusableMethods.wait(1);
+        ReusableMethods.wait(3);
         loginPage.PasswordButton.sendKeys(ConfigReader.getProperty(password));
         ReusableMethods.wait(1);
         loginPage.SignInButton2.click();
@@ -185,7 +186,7 @@ public class ReusableMethods {
 
         ReusableMethods.wait(1);
         loginPage.ProfileButton.click();
-        ReusableMethods.wait(1);
+        ReusableMethods.wait(3);
         koordinatTiklamaMethoduOguz(270, 2600);
 
 
@@ -222,6 +223,38 @@ public class ReusableMethods {
         // Aksiyonu gerçekleştir
         driver.perform(Collections.singletonList(swipe));
     }
+
+
+
+
+
+    public static void dikeyKaydirma(RemoteWebDriver driver, double baslangicYuzdesi, double bitisYuzdesi, double sabitYuzde, int sure) throws InvalidMidiDataException {
+        // 1. WebDriver'ın pencere boyutunu alır
+        Dimension boyut = driver.manage().window().getSize();
+        // 2. Sabit noktanın x koordinatını hesaplar (pencere genişliğinin belirtilen yüzdesi)
+        int sabitNokta = (int) (boyut.width * sabitYuzde);
+        // 3. Başlangıç noktasının y koordinatını hesaplar (pencere yüksekliğinin başlangıç yüzdesi)
+        int baslangicNoktasi = (int) (boyut.height * baslangicYuzdesi);
+        // 4. Bitiş noktasının y koordinatını hesaplar (pencere yüksekliğinin bitiş yüzdesi)
+        int bitisNoktasi = (int) (boyut.height * bitisYuzdesi);
+        // 5. Yeni bir PointerInput (parmak girişi) oluşturur, türü TOUCH (DOKUNMA) ve adı "finger"
+        PointerInput parmak = new PointerInput(PointerInput.Kind.TOUCH, "finger");
+        // 6. Kaydırma işlemi için bir Sequence (dizi) oluşturur, 1 adımlı
+        Sequence kaydirma = new Sequence(parmak, 1)
+                // Başlangıç noktasına parmağı hareket ettirme eylemi ekler
+                .addAction(parmak.createPointerMove(Duration.ZERO, PointerInput.Origin.viewport(), sabitNokta, baslangicNoktasi))
+                // Parmak basma (dokunma) eylemi ekler
+                .addAction(parmak.createPointerDown(PointerInput.MouseButton.LEFT.asArg()))
+                // Belirtilen süre boyunca parmağı belirtilen bitiş noktasına hareket ettirme eylemi ekler
+                .addAction(parmak.createPointerMove(Duration.ofMillis(sure), PointerInput.Origin.viewport(), sabitNokta, bitisNoktasi))
+                // Parmak kaldırma (dokunmayı sonlandırma) eylemi ekler
+                .addAction(parmak.createPointerUp(PointerInput.MouseButton.LEFT.asArg()));
+        // 7. Oluşturulan kaydırma işlemini WebDriver üzerinde gerçekleştirir
+        driver.perform(Collections.singletonList(kaydirma));
+
+    }
+
+
 
 
 }

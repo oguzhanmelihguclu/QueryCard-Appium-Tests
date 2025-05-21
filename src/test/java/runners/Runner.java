@@ -10,11 +10,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         plugin = {"pretty",
                 "json:target/cucumber.json",
-
+                "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
         },
         features = "src/test/resources/Features",
         glue = "stepDefinitions",
-        tags = " @browser" ,
+        tags = "@4" ,
         dryRun = false
 
 

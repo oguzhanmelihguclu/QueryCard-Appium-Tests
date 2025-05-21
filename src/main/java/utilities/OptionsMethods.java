@@ -94,5 +94,15 @@ public class OptionsMethods {
 
 
 
+
+
+
+
+    public static void clickAndSendKeys(WebElement element, String context) {
+        element.click();
+        element.clear();
+        element.sendKeys(context);
+    }
+
 }
 
