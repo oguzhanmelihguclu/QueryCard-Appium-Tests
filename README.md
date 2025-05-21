@@ -10,7 +10,7 @@ This project is designed to test the **mobile application** of the [QueryCart](h
 |--------------------------|-----------------------------------------------------------|
 | **Java (OpenJDK 23)**     | The programming language for writing test scenarios       |
 | **Cucumber**              | BDD (Behavior Driven Development) approach                |
-| **Appium**                | Mobile application automation tool                        |
+| **Appium 2.0**                | Mobile application automation tool                        |
 | **Selenium WebDriver**    | UI interactions (mobile browser)                          |
 | **TestNG**                | Test management                                            |
 | **Allure**                | Reporting tool                                            |
