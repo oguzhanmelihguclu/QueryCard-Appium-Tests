@@ -87,3 +87,4 @@ For detailed backlog information, check the **`docs/backlog.md`** or **`features
 - **LinkedIn:** [Oğuzhan Melih Güçlü](https://www.linkedin.com/in/oguzhanmelihguclu/)
 
 
+![Ekran görüntüsü 2025-05-21 180709](https://github.com/user-attachments/assets/7518bec1-3110-4e37-98c5-9b47825ca766)
